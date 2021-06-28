@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Lilliemefie/EmployeeTracker/issues"
   },
-  "homepage": "https://github.com/Lilliemefie/EmployeeTracker#readme"
+  "homepage": "https://github.com/Lilliemefie/EmployeeTracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.1",
+    "mysql": "^2.18.1"
+  }
 }
