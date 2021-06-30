@@ -11,3 +11,15 @@ role_id INT FOREIGN KEY,
 manager_id INT FOREIGN KEY NULL
 PRIMARY KEY (id)
 );
+
+CREATE TABLE role (
+id INT AUTO_INCREMENT,
+title VARCHAR(30),
+salary DECIMAL,
+department_id INT FOREIGN KEY
+)
+
+CREATE TABLE department (
+id INT AUTO_INCREMENT,
+name VARCHAR(30)
+)
