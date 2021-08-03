@@ -1,5 +1,5 @@
 # EmployeeTracker
-![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg) 
+![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg) ![](https://badgen.net/github/status/micromatch/micromatch)
 
 
 ## Description
