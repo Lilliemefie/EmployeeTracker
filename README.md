@@ -20,7 +20,6 @@ This application allows you to manage and track departments, roles and employees
 2.	Open the folder in your code text editor of choice
 3.	Once you have done that, you will need to install necessary dependencies package by entering `npm i` on Terminal (command-line system)
 4.  Run `node server.js` on Terminal 
-```Optional: Run `node seeders/seed.js` if you would like to seed the existing database```
 
 
 
@@ -34,9 +33,10 @@ This application will allow users to view, add, and edit employees, roles, depar
 
 ## Tools and Technologies 
 - Node.js
-- console.table (NPM package - to print MySQL rows to the console.)
-- Inquirer (NPM package - to interact with the user via the command-line.)
-- MySQL (NPM package - to connect to your MySQL database and perform queries.)
+- console.table (NPM package - to print MySQL rows to the console)
+- Inquirer (NPM package - to interact with the user via the command-line)
+- MySQL (NPM package - to connect to your MySQL database and perform queries)
+- MySQLWorkbench (to seed an existing database)
 
 
 ## License
