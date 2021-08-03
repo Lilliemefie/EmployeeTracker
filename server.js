@@ -1,47 +1,23 @@
+// import mysql2
 const mysql = require('mysql');
+// import inquirer 
 const inquirer = require('inquirer');
+// import console.table
 const console = require('console.table');
+require('dotenv').config();
 
+
+// connection to database
 const connection = mysql.createConnection({
   host: 'localhost',
-
   // Your port; if not 3306
-  port: 3306,
+  port: 3001,
   // Your username
-  user: 'root',
+  user: process.env.DB_USER,
   // Your password
-  password: 'Ucla2021$',
-  database: 'company_DB',
+  password: process.env.DB_PASSWORD,
+  // 
+  database: process.env.DB_NAME,
 });
 
-connection.connect((err) => {
-    if (err) throw err;
-    runSearch();
-  });
-
-  const runSearch = () => {
-      inquirer
-      .prompt({
-          type: 'list',
-          message: 'What would you like to do?',
-          name: 'action',
-          choices: [
-              'View all employee',
-              'View all departments',
-              'View all roles',
-              'Add employee',
-              'Add departments',
-              'Add roles',
-              'Update employee role',
-              'Update employee managers',
-              'View employee by manager'
-          ]
-      })
-      .then((answer) => {
-          switch (answer.choice){
-            case 'View all employee':
-                viewAllEmployee();
-          }
-      })
-  }
   
