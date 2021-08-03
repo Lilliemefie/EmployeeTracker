@@ -36,7 +36,7 @@ VALUES
 ("Lillie", "Jira", 3, 4),
 ("Yimmy", "Kong", 4, 3),
 ("Jayda", "Muller", 2, 2),
-("Jesse", "Wells", 1, null),
+("Jesse", "Wells", 1, 1),
 
 ----Employee Role Seeding----
 INSERT INTO roles (title, salary, department_id)
