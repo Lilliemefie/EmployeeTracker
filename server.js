@@ -44,4 +44,4 @@ connection.connect((err) => {
           }
       })
   }
-  runSearch();
+  
